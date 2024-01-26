@@ -1,0 +1,229 @@
+
+body{
+
+
+font-family: 'Roboto';
+
+
+    background: linear-gradient(180deg, #0500FF 5.73%, #E10000 100%);
+    
+}
+nav a:hover{
+    background-image: linear-gradient(180deg, #EC0000 0%, rgba(255, 0, 0, 0.21) 100%);
+color: white;
+transition: 0.3s;
+padding: 3px;
+
+}
+header{
+    background-image: url("header start.png");
+
+   height: 500px;
+   width: 100%;
+     background-size: cover;
+background-repeat: no-repeat;
+}
+header h1{
+    /* Магазин */
+
+position: absolute;
+left: 300px;
+top: 10px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 64px;
+line-height: 75px;
+
+color: rgba(227, 0, 0, 0.82);
+
+
+}
+nav a{
+left: 10%;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+
+color: #1400FF;
+text-decoration: none;
+margin-left:20px ;
+
+
+
+}
+nav{
+    position: absolute;
+width: 100%;
+    top:400px;
+    padding: 10px;
+    
+background-color: rgba(255, 255, 255, 0.54);
+
+}
+.NAS{
+    /* Про нас */
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+color: #70E248;
+}
+.Nas1{
+    /* Найчесніший сайт із відкриття кейсів CS:GO! Мільйони користувачів з нами! Круті бонуси, моментальний вивод у STEAM! */
+font-family: 'Roboto';
+font-style: normal;
+width: 50%;
+float: left;
+
+color: #73FF92;
+}
+h3{
+   /* Revolution case */
+font-family: 'Ribeye';
+font-style: normal;
+/* identical to box height */
+color: #00A34B;
+
+font-weight: 400;
+font-size: 32px;
+line-height: 44px;
+
+
+
+}
+.text1{
+    /* Ціна */
+font-family: 'Roboto';
+font-style: normal;
+color: #00FF75;
+
+font-weight: 700;
+font-size: 24px;
+
+
+
+}
+.text2{
+    /* 60грн */
+font-family: 'Roboto';
+font-style: normal;
+/* identical to box height */
+color: #8566FF;
+
+font-weight: 700;
+font-size: 32px;
+
+
+
+
+}
+.product{/* Rectangle 20 */
+display: flex;
+justify-content: space-between;
+background: linear-gradient(180deg, #0500FF 5.73%, #E10000 100%);
+border-radius: 44px;
+flex-direction: column;
+margin: 15px;
+padding: 15px;
+
+
+box-shadow: 9px 4px 4.7px rgba(0, 0, 0, 0.25);
+
+
+}
+.product:hover{
+box-shadow: 12px 7px 7px 7px rgba(0, 0, 0, 0.3);
+transition: 0.3s;
+
+}
+.nas2{
+    width: 50%;
+    float: right;
+    /* Rectangle 2 */
+background: linear-gradient(180deg, #000AF3 -10.5%, rgba(0, 10, 243, 0) 89.5%);
+
+}
+.na1 div{
+    display: flex;
+    justify-content: space-between;
+    
+}
+.d{
+    /* Каталог */
+
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+line-height: 47px;
+/* identical to box height */
+
+color: #1400FF;
+text-decoration: none;
+/* Ellipse 3 */
+
+
+}
+
+.d23d div{
+display: flex;
+justify-content: space-between;
+flex-wrap: wrap;
+}
+.sd3 div{
+    display: flex;
+    justify-content: center;
+    
+}
+.sd3 img{
+padding: 10px;
+}
+.eee{
+
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 700;
+font-size: 40px;
+
+color: white;
+text-align: center;
+}
+.fff{
+
+font-family: 'Roboto';
+font-style: normal;
+
+color: #00FF75;
+text-align: center;
+font-size: 30px;
+font-weight: 400;
+
+}
+footer{
+    color: white;
+    /* Rectangle 11 */
+/* Rectangle 11 */
+background: linear-gradient(180deg, #FF0000 0%, #025888 100%);
+padding: 10px;
+}
+footer div{
+
+    float: right;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.map{
+text-align: center;
+}
